@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04008859212B9B18002004DA /* AutoHeightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04008858212B9B18002004DA /* AutoHeightTableViewCell.m */; };
+		040F4164212BF835002B268A /* rk_autoheightcell.gif in Resources */ = {isa = PBXBuildFile; fileRef = 040F4163212BF835002B268A /* rk_autoheightcell.gif */; };
 		0456782E212B95C60055B5AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0456782D212B95C60055B5AD /* AppDelegate.m */; };
 		04567831212B95C60055B5AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04567830212B95C60055B5AD /* ViewController.m */; };
 		04567834212B95C60055B5AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04567832212B95C60055B5AD /* Main.storyboard */; };
 		04567836212B95C80055B5AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04567835212B95C80055B5AD /* Assets.xcassets */; };
 		04567839212B95C80055B5AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04567837212B95C80055B5AD /* LaunchScreen.storyboard */; };
 		0456783C212B95C80055B5AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0456783B212B95C80055B5AD /* main.m */; };
+		937D53E66B0EF4DEF1EB8658 /* libPods-RKAutoHeightTableViewCell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A2F42CA3068301DFE29482 /* libPods-RKAutoHeightTableViewCell.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04008854212B9A65002004DA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		04008857212B9B18002004DA /* AutoHeightTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoHeightTableViewCell.h; sourceTree = "<group>"; };
+		04008858212B9B18002004DA /* AutoHeightTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoHeightTableViewCell.m; sourceTree = "<group>"; };
+		040F4163212BF835002B268A /* rk_autoheightcell.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rk_autoheightcell.gif; sourceTree = "<group>"; };
 		04567829212B95C60055B5AD /* RKAutoHeightTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RKAutoHeightTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0456782C212B95C60055B5AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0456782D212B95C60055B5AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +33,9 @@
 		04567838212B95C80055B5AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0456783A212B95C80055B5AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0456783B212B95C80055B5AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29A2F42CA3068301DFE29482 /* libPods-RKAutoHeightTableViewCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RKAutoHeightTableViewCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30579F868DB3A4E8C9E4481D /* Pods-RKAutoHeightTableViewCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKAutoHeightTableViewCell.release.xcconfig"; path = "Pods/Target Support Files/Pods-RKAutoHeightTableViewCell/Pods-RKAutoHeightTableViewCell.release.xcconfig"; sourceTree = "<group>"; };
+		B5DFA66EACB6419138205C03 /* Pods-RKAutoHeightTableViewCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKAutoHeightTableViewCell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RKAutoHeightTableViewCell/Pods-RKAutoHeightTableViewCell.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				937D53E66B0EF4DEF1EB8658 /* libPods-RKAutoHeightTableViewCell.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04008855212B9AF1002004DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0456782F212B95C60055B5AD /* ViewController.h */,
+				04567830212B95C60055B5AD /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04008856212B9AFC002004DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04008857212B9B18002004DA /* AutoHeightTableViewCell.h */,
+				04008858212B9B18002004DA /* AutoHeightTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		040F4162212BF702002B268A /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				040F4163212BF835002B268A /* rk_autoheightcell.gif */,
+			);
+			path = gif;
+			sourceTree = "<group>";
+		};
 		04567820212B95C60055B5AD = {
 			isa = PBXGroup;
 			children = (
 				0456782B212B95C60055B5AD /* RKAutoHeightTableViewCell */,
 				0456782A212B95C60055B5AD /* Products */,
+				DD4814DD4839086A651FE745 /* Pods */,
+				B0C0CC69E63EF85D2EDD5240 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +97,36 @@
 		0456782B212B95C60055B5AD /* RKAutoHeightTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				040F4162212BF702002B268A /* gif */,
+				04008856212B9AFC002004DA /* View */,
+				04008855212B9AF1002004DA /* Controller */,
 				0456782C212B95C60055B5AD /* AppDelegate.h */,
 				0456782D212B95C60055B5AD /* AppDelegate.m */,
-				0456782F212B95C60055B5AD /* ViewController.h */,
-				04567830212B95C60055B5AD /* ViewController.m */,
 				04567832212B95C60055B5AD /* Main.storyboard */,
 				04567835212B95C80055B5AD /* Assets.xcassets */,
 				04567837212B95C80055B5AD /* LaunchScreen.storyboard */,
 				0456783A212B95C80055B5AD /* Info.plist */,
 				0456783B212B95C80055B5AD /* main.m */,
+				04008854212B9A65002004DA /* PrefixHeader.pch */,
 			);
 			path = RKAutoHeightTableViewCell;
+			sourceTree = "<group>";
+		};
+		B0C0CC69E63EF85D2EDD5240 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29A2F42CA3068301DFE29482 /* libPods-RKAutoHeightTableViewCell.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD4814DD4839086A651FE745 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5DFA66EACB6419138205C03 /* Pods-RKAutoHeightTableViewCell.debug.xcconfig */,
+				30579F868DB3A4E8C9E4481D /* Pods-RKAutoHeightTableViewCell.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +136,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0456783F212B95C80055B5AD /* Build configuration list for PBXNativeTarget "RKAutoHeightTableViewCell" */;
 			buildPhases = (
+				9E0F70239D868B41224CBAA4 /* [CP] Check Pods Manifest.lock */,
 				04567825212B95C60055B5AD /* Sources */,
 				04567826212B95C60055B5AD /* Frameworks */,
 				04567827212B95C60055B5AD /* Resources */,
@@ -131,10 +190,32 @@
 				04567839212B95C80055B5AD /* LaunchScreen.storyboard in Resources */,
 				04567836212B95C80055B5AD /* Assets.xcassets in Resources */,
 				04567834212B95C60055B5AD /* Main.storyboard in Resources */,
+				040F4164212BF835002B268A /* rk_autoheightcell.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E0F70239D868B41224CBAA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RKAutoHeightTableViewCell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04567825212B95C60055B5AD /* Sources */ = {
@@ -142,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04567831212B95C60055B5AD /* ViewController.m in Sources */,
+				04008859212B9B18002004DA /* AutoHeightTableViewCell.m in Sources */,
 				0456783C212B95C80055B5AD /* main.m in Sources */,
 				0456782E212B95C60055B5AD /* AppDelegate.m in Sources */,
 			);
@@ -281,9 +363,11 @@
 		};
 		04567840212B95C80055B5AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5DFA66EACB6419138205C03 /* Pods-RKAutoHeightTableViewCell.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = /Users/mac/Documents/GitHub/RKAutoHeightTableViewCell/RKAutoHeightTableViewCell/PrefixHeader.pch;
 				INFOPLIST_FILE = RKAutoHeightTableViewCell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +381,11 @@
 		};
 		04567841212B95C80055B5AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30579F868DB3A4E8C9E4481D /* Pods-RKAutoHeightTableViewCell.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = /Users/mac/Documents/GitHub/RKAutoHeightTableViewCell/RKAutoHeightTableViewCell/PrefixHeader.pch;
 				INFOPLIST_FILE = RKAutoHeightTableViewCell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

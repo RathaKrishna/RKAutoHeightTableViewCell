@@ -2,4 +2,4 @@
 set automatic height for UITableViewCell in UITableViewController
 
 
-![alt text](https://github.com/RathaKrishna/RKAutoHeightTableViewCell/blob/master/RKAutoHeightTableViewCell/gif/rk_autoheightcell.gif)
+![test img](https://github.com/RathaKrishna/RKAutoHeightTableViewCell/blob/master/RKAutoHeightTableViewCell/gif/rk_autoheightcell.gif)
